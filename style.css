@@ -85,7 +85,7 @@ html {
 body {
   font-family: "Times New Roman", serif;
   font-size: 14px;
-  background:  url(Group\ 1.png) 0 0/100% 80% no-repeat, url(Layer\ 0.png);
+  background:  url("Group/ 1.png") 0 0/100% 80% no-repeat, url("Layer/ 0.png");
   height: 200px;
 }
 header {
