@@ -85,7 +85,7 @@ html {
 body {
   font-family: "Times New Roman", serif;
   font-size: 14px;
-  background:  url(/img/lines.png) 0 0/100% 120% no-repeat, url(/img/back.png);
+  background:  url(lines.png) 0 0/100% 120% no-repeat, url(back.png);
   height: 200px;
 }
 header {
@@ -145,7 +145,7 @@ main {
 li {
   padding: 0 0 0 25px;
   margin: 0 0 7px 0;
-  background: url(/img/check_icon.png) left top/auto 100% no-repeat;
+  background: url(check_icon.png) left top/auto 100% no-repeat;
 }
 
 .li-2 {
