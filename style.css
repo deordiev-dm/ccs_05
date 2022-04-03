@@ -1,0 +1,175 @@
+/*! ----------------- ОБНУЛЕНИЕ СТИЛЕЙ ----------------- */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*! ----------------- ОБНУЛЕНИЕ СТИЛЕЙ ----------------- */
+html {
+  margin-bottom: 50px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  font-size: 14px;
+  background:  url(/img/Group\ 1.png) 0 0/100% 80% no-repeat, url(/img/Layer\ 0.png);
+  height: 200px;
+}
+header {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding: 30px 0px;
+  margin-bottom: 20px;
+}
+p.travel {
+  color: #273d46;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 7px;
+  margin-bottom: 30px;
+  font-family: Arial;
+}
+.intro-text {
+  color: #273d46;
+  font-size: 18px;
+  line-height: 25px;
+}
+main {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.picture-block {
+  margin-bottom: 30px;
+  width: 100%;
+  margin: auto; 
+}
+
+.picture {
+  display: block;
+  width: 100%;
+  margin: auto;
+  border: 10px solid #fff;
+} 
+.text-part {
+  padding: 0px 20px;
+}
+.info {
+  color: #273d46;
+  line-height: 20px;
+  margin: 30px 0px;
+}
+.info-text-1 {
+  margin-bottom: 20px;
+}
+.check-list {
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+li {
+  padding: 0 0 0 25px;
+  margin: 0 0 7px 0;
+  background: url(/img/check\ icon.png) left top/auto 100% no-repeat;
+}
+
+.li-2 {
+  color: #80b7b3;
+  font-style: italic;
+}
+.li-3 {
+  font-weight: bold;
+}
+.li-4 {
+  text-decoration: line-through;
+  color: grey;
+}
+.button {
+  margin: 30px 0px;
+  display: block;
+  text-transform: uppercase;
+  background: #67d3cc;
+  border-radius:30px;
+  height: 30px;
+  width: 100px;
+  font-family: Arial;
+  letter-spacing: 1px;
+  font-size: 8px;
+  color: #fff;
+  box-shadow: #78e8e0 1px 1px 6px;
+}
